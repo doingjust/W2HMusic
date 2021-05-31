@@ -175,9 +175,9 @@ def r_ply(type_):
         [
             [
                 InlineKeyboardButton('⏹', 'leave'),
-                InlineKeyboardButton('⏸', 'puse'),
+                InlineKeyboardButton('⏸', 'pause'),
                 InlineKeyboardButton('▶️', 'resume'),
-                InlineKeyboardButton('⏭', 'skip')
+                InlineKeyboardButton('⏭', 'ange chale')
                 
             ],
             [
@@ -185,7 +185,7 @@ def r_ply(type_):
                 
             ],
             [       
-                InlineKeyboardButton("❌ Close",'cls')
+                InlineKeyboardButton("❌ bandkr",'cls')
             ]        
         ]
     )
@@ -399,7 +399,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing Via ✯W2HMusic✯**")
+    lel = await message.reply("🔄 **Processing Via ✯❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -532,7 +532,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** song requested by {} via W2HMusic ".format(
+        caption="▶️ **Playing** song requested by {} via ❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈  ".format(
         message.from_user.mention()
         ),
     )
@@ -547,13 +547,13 @@ async def play(_, message: Message):
 )
 async def deezer(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing Via ✯W2HMusic✯**")
+    lel = await message_.reply("🔄 **Processing Via ❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈ **")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "W2HMusic"
+        user.first_name =  "hayatmusic"
     usar = user
     wew = usar.id
     try:
@@ -622,8 +622,8 @@ async def deezer(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="⭐ Support ⭐",
-                   url='https://t.me/W2HSupport')
+                   text="⭐ sahayta ke liye ⭐",
+                   url='https://t.me/python_pirates')
              ],
              [       
                  InlineKeyboardButton(
@@ -645,9 +645,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯W2HMusic✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f"❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈ = #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯W2HMusic✯=▶️ Playing.....")
+        await res.edit_text("❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈ =▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -676,13 +676,13 @@ async def deezer(client: Client, message_: Message):
 )
 async def jiosaavn(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing Via ✯W2HMusic✯=**")
+    lel = await message_.reply("🔄 **❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈=**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "W2HMusic"
+        user.first_name =  "hayatMusic"
     usar = user
     wew = usar.id
     try:
@@ -755,8 +755,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="⭐ Support ⭐",
-                   url='https://t.me/W2HSupport')
+                   text="⭐ sahayta ⭐",
+                   url='https://t.me/python_pirates')
              ],
              [       
                InlineKeyboardButton(
@@ -780,12 +780,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯W2HMusic✯=#️⃣ Queued at position {position}",
+            caption=f"✯hayatMusic✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯W2HMusic✯=▶️ Playing.....")
+        await res.edit_text("❈𝐇𝐀𝐘𝐀𝐓 𝐌𝐔𝐒𝐈𝐂 𝐛𝐲 𝐩𝐚𝐫𝐯❈=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
