@@ -1,5 +1,5 @@
-# W2HMusic TELEGRAM VC MUSIC BOT 
-[![W2HMusic logo](https://telegra.ph/file/41871555394988009d3ca.jpg)](https://t.me/W2HSupport)
+#  HAYAT VC MUSIC BOT 
+[![HAYAT logo](https://telegra.ph/file/129ff404ead906df63643.jpg)](https://t.me/python_pirates)
 
 
 -It is inspired from su music project and hamkercat's telegram voice bot.
@@ -120,12 +120,3 @@ Copy `example.env` to `.env` and fill it with your credentials.
 ## Support
 - [Channel](https://t.me/W2H_userbot)
 - [Group](https://t.me/W2HSupport)
-
-## Credits
-- [DaisyXMusic](https://github.com/TeamDaisyX/DaisyXMusic)
-- [iisgaurav](https://github.com/iisgaurav):DEV
-- [hamker cat](https://github.com/thehamkercat/Telegram_VC_Bot)
-- [Roj](https://github.com/rojserbest)
-- [Marvin](https://github.com/BlackStoneReborn)
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-
